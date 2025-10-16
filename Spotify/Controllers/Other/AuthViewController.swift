@@ -20,7 +20,7 @@ class AuthViewController: UIViewController, WKNavigationDelegate {
         
     }()
     
-    public var conpletionHandler: ((Bool) -> Void)?
+    public var completionHandler: ((Bool) -> Void)?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -48,7 +48,14 @@ class AuthViewController: UIViewController, WKNavigationDelegate {
         guard let code = URLComponents(string: url.absoluteString)?.queryItems?.first(where: { $0.name == "code"  })?.value else {
             return
         }
+        webView.isHidden = true
         
         print("Code:  \(code)")
+        AuthManager.shared.exchangeCodeForToken(code: code) { [weak self] success in
+            DispatchQueue.main.async {
+                self?.navigationController?.popToRootViewController(animated: true)
+                self?.completionHandler?(success)
+            }
+        }
     }
 }
