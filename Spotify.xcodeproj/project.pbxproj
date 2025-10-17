@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		F9DD785A2E9FA2BF00120F4C /* Spotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9DD785A2E9FA2BF00120F4C /* Spotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Spotify.app; path = "/Users/zh/Documents/XCODE_Projects/Spotify/build/Debug-iphoneos/Spotify.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -46,16 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				F9DD785C2E9FA2BF00120F4C /* Spotify */,
-				F9DD785B2E9FA2BF00120F4C /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		F9DD785B2E9FA2BF00120F4C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F9DD785A2E9FA2BF00120F4C /* Spotify.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,8 +68,6 @@
 				F9DD785C2E9FA2BF00120F4C /* Spotify */,
 			);
 			name = Spotify;
-			packageProductDependencies = (
-			);
 			productName = Spotify;
 			productReference = F9DD785A2E9FA2BF00120F4C /* Spotify.app */;
 			productType = "com.apple.product-type.application";
@@ -108,7 +97,7 @@
 			mainGroup = F9DD78512E9FA2BF00120F4C;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = F9DD785B2E9FA2BF00120F4C /* Products */;
+			productRefGroup = F9DD78512E9FA2BF00120F4C;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -151,6 +140,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -177,6 +167,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
