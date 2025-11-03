@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		F9DD785A2E9FA2BF00120F4C /* Spotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Spotify.app; path = "/Users/zh/Documents/XCODE_Projects/Spotify/build/Debug-iphoneos/Spotify.app"; sourceTree = "<absolute>"; };
+		F916ABED2EB4BF4700F11A23 /* Spotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -46,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				F9DD785C2E9FA2BF00120F4C /* Spotify */,
+				F916ABED2EB4BF4700F11A23 /* Spotify.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,7 +70,7 @@
 			);
 			name = Spotify;
 			productName = Spotify;
-			productReference = F9DD785A2E9FA2BF00120F4C /* Spotify.app */;
+			productReference = F916ABED2EB4BF4700F11A23 /* Spotify.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
